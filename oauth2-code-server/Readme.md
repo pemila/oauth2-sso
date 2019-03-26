@@ -97,7 +97,7 @@
         
         ![确认后跳转](img/确认后跳转.png)
 - 令牌端点测试
-    - Authorization = **Basic+空格+Base64.getEncoder().encodeToString("my-client-1:12345678".getBytes())**  
+    - Authorization = **Basic+空格+Base64.getEncoder().encodeToString("client_id:client_secret".getBytes())**  
     - redirect_uri与请求授权许可时一致
     ![](img/请求令牌header.png)
     ![获取访问令牌](img/获取访问令牌.png)
